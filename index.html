@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <title> Website With Login e registration </title>
     <link rel="stylesheet" href="estilo2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body>
     <header>
 
-        <h2 class="logo">SpaceW</h2>
+        <h1 class="logo">SpaceW</h1>
         <nav class="navigation">
             <a href="#">Home</a>
             <a href="#">Sobre</a>
@@ -21,7 +22,32 @@
             
         
     </header>
+    <div class="wrapper">
+        <form action="">
+            <h2>Login</h2>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <box-icon type='solid' name='user-pin'></box-icon>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <box-icon type='solid' name='lock-alt'></box-icon>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox"></label>
+                <a href="#">Forgot password</a>
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+
+            <div class="register-link"></div>
+            <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+
+        </form>
+    </div>
     
+
+
 
     <script>
 
